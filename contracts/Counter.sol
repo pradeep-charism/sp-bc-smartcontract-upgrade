@@ -14,6 +14,4 @@ contract Counter is Initializable {
   function initialize(uint _counter) public initializer {
     counter = _counter;
   }
-
-
 }
